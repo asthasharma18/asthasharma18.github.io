@@ -1,0 +1,28 @@
+*{ 
+    justify-content: center;
+    button{
+        &:hover {
+            background-color: orange;
+        }
+        &:disabled {
+            background-color: gray;
+        }
+    }
+    input{
+        margin :0 0 0 30% ;
+        color: wheat;
+    }
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.medium-violet-red{
+    background-color: mediumvioletred;
+}
+.midnight-blue{
+    background-color: midnightblue;
+}
+
